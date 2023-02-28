@@ -1,0 +1,15 @@
+<heading>
+    <heading1>Blissful Engelbartt</heading1>
+    <heading2>CollecT CONCERTS AHHHHH</heading2>
+</heading>
+<br />
+
+<searchform>
+    Enter concert URL<br /> 
+    <%= form_tag results_path, :method => "get" do %>
+        <%= search_field_tag :search %>
+        <%= submit_tag "Search", :name => nil %>
+    <% end %>
+</searchform>
+
+Yay sprint 0-3!!!
