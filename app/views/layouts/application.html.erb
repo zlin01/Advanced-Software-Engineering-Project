@@ -7,9 +7,18 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+
   </head>
 
   <body>
     <%= yield %>
+
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#SignIn">Sign In</a></li>
+    <li><a href="#ViewSavedConcerts">View Saved Concerts</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+
   </body>
 </html>
