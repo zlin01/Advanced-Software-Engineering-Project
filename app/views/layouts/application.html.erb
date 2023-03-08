@@ -11,14 +11,26 @@
   </head>
 
   <body>
-    <%= yield %>
+    <navbar>
+      <navitem><%=link_to "Home", root_path%></navitem>
+      <% if user_signed_in? %>
+        <navitem><%=button_to "Sign Out", destroy_user_session_path, method: "delete"%></navitem>
+        <navitem><%=link_to "View Saved Concerts", root_path%></navitem>
+      <% else %>
+        <navitem><%=link_to "Sign In", new_user_session_path%></navitem>
+      <% end %>
+      <navitem><%=link_to "About", root_path%></navitem>
+    </navbar>
 
-  <ul>
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#SignIn">Sign In</a></li>
-    <li><a href="#ViewSavedConcerts">View Saved Concerts</a></li>
-    <li><a href="#about">About</a></li>
-  </ul>
+    <page>
+      <heading>
+        <heading1>Blissful Engelbartt</heading1>
+        <heading2>The Concert Collector site</heading2>
+        <p class="notice"><%= notice %></p>
+        <p class="alert"><%= alert %></p>
+      </heading>
 
+      <%= yield %>
+    </page>
   </body>
 </html>
