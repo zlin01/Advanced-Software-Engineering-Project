@@ -10,5 +10,8 @@ Rails.application.routes.draw do
   get "results", to: "pages#results"
 
   get '/concertlist/', to: "pages#saved"
+
+    #about path
+  get "about", to: "pages#about"
 end
 

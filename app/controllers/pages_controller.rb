@@ -8,4 +8,8 @@ class PagesController < ApplicationController
     def saved
         @concerts = Concert.all
     end
+
+    def about
+    end
+
 end
