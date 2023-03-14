@@ -4,6 +4,13 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
-  @amountconcerts = 0;
-  @concertlist = [];
+  @@amountconcerts = 0;
+  @@concertlist = []
+  def self.concertlist
+    @@concertlist
+  end
+
+  def self.add_concertlist(concert)
+    concertlist << concert
+  end
 end

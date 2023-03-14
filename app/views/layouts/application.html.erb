@@ -12,10 +12,10 @@
 
   <body>
     <navbar>
-      <navitem><%=link_to "Home", root_path%></navitem>
+      <navitem><%=link_to "Home", root_path %></navitem>
       <% if user_signed_in? %>
         <navitem><%=button_to "Sign Out", destroy_user_session_path, method: "delete"%></navitem>
-        <navitem><%=link_to "View Saved Concerts", root_path%></navitem>
+        <navitem><%=link_to "View Saved Concerts", concertlist_path%></navitem>
       <% else %>
         <navitem><%=link_to "Sign In", new_user_session_path%></navitem>
       <% end %>
@@ -25,7 +25,7 @@
     <page>
       <heading>
         <heading1>Blissful Engelbartt</heading1>
-        <heading2>The Concert Collector site</heading2>
+        <heading2>The Concert Collector Site</heading2>
         <p class="notice"><%= notice %></p>
         <p class="alert"><%= alert %></p>
       </heading>
