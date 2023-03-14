@@ -20,19 +20,6 @@ navbar
     padding-left: 12px;
 }
 
-navitem *
-{
-    display: inline-block;
-    padding: 14px 16px;
-    color: rgba(108, 198, 233, 0.3);
-    text-decoration: none;
-}
-
-navitem *:hover
-{
-    background-color: #707070;
-}
-
 page
 {
     display: block;
@@ -72,4 +59,25 @@ heading2
 {
     font-size: clamp(12px, 2vh, 1vw);
     text-align: center;
+}
+
+navitem *
+{
+    display: inline-block;
+    padding: 14px 16px;
+    color: rgba(108, 198, 233);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+navitem *:hover
+{
+    background-color: #707070;
+}
+
+navitem form *
+{
+    padding: 0;
+    background: none;
+    border: none;
 }

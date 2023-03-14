@@ -10,7 +10,7 @@ Rails.application.configure do
   config.annotations.register_directories('features')
   config.annotations.register_extensions('feature') { |tag| /#\s*(#{tag}):?\s*(.*)$/ }
 
-  config.hosts << "group6-se2023.herokuapp.com"
+  #config.hosts << "group6-se2023.herokuapp.com" << ""
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Turn false under Spring and add config.action_view.cache_template_loading = true.
