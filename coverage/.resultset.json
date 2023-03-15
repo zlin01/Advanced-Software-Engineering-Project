@@ -1,211 +1,17 @@
 {
   "RSpec": {
     "coverage": {
-      "/root/Project/spec/models/user_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null
-        ]
-      },
-      "/root/Project/spec/rails_helper.rb": {
+      "/root/group6_spring2023/Rakefile": {
         "lines": [
           null,
-          1,
-          1,
-          null,
-          1,
           null,
           null,
           1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          0,
-          0,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/root/Project/config/environment.rb": {
-        "lines": [
-          null,
-          1,
-          null,
           null,
           1
         ]
       },
-      "/root/Project/config/application.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/root/Project/config/boot.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1
-        ]
-      },
-      "/root/Project/config/environments/test.rb": {
-        "lines": [
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/root/Project/config/initializers/assets.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/root/Project/config/initializers/content_security_policy.rb": {
+      "/root/group6_spring2023/lib/tasks/cucumber.rake": {
         "lines": [
           null,
           null,
@@ -214,392 +20,14 @@
           null,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/root/Project/config/initializers/devise.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           null,
           1,
           1,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/root/Project/config/initializers/filter_parameter_logging.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
           1,
           null,
-          null
-        ]
-      },
-      "/root/Project/config/initializers/inflections.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/root/Project/config/initializers/permissions_policy.rb": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/root/Project/spec/factories/users.rb": {
-        "lines": [
           1,
           1,
           1,
@@ -607,37 +35,56 @@
           1,
           null,
           null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
           null,
           1,
           0,
           0,
           0,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          0,
           0,
           0,
           null,
-          0,
+          null,
+          null,
           null
         ]
       },
-      "/root/Project/config/routes.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          null,
-          null
-        ]
-      },
-      "/root/Project/app/models/user.rb": {
+      "/root/group6_spring2023/app/models/user.rb": {
         "lines": [
           1,
           null,
@@ -657,31 +104,202 @@
           null
         ]
       },
-      "/root/Project/app/models/application_record.rb": {
+      "/root/group6_spring2023/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/root/Project/app/helpers/application_helper.rb": {
+      "/root/group6_spring2023/app/channels/application_cable/channel.rb": {
         "lines": [
-          1,
-          null
-        ]
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
       },
-      "/root/Project/app/helpers/concerts_helper.rb": {
+      "/root/group6_spring2023/app/channels/application_cable/connection.rb": {
         "lines": [
-          1,
-          null
-        ]
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/root/group6_spring2023/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/root/group6_spring2023/app/controllers/concerts_controller.rb": {
+        "lines": [
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/root/group6_spring2023/app/controllers/pages_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          null,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/root/group6_spring2023/app/helpers/application_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/root/group6_spring2023/app/helpers/concerts_helper.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/root/group6_spring2023/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/root/group6_spring2023/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/root/group6_spring2023/app/models/concert.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
       }
     },
-    "timestamp": 1678833064
+    "timestamp": 1678846896
   },
   "Cucumber Features": {
     "coverage": {
-      "/root/Project/app/models/user.rb": {
+      "/root/group6_spring2023/app/models/user.rb": {
         "lines": [
           1,
           null,
@@ -701,14 +319,14 @@
           null
         ]
       },
-      "/root/Project/app/models/application_record.rb": {
+      "/root/group6_spring2023/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/root/Project/app/controllers/pages_controller.rb": {
+      "/root/group6_spring2023/app/controllers/pages_controller.rb": {
         "lines": [
           1,
           1,
@@ -717,6 +335,17 @@
           2,
           null,
           null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           1,
           2,
           null,
@@ -727,31 +356,31 @@
           null
         ]
       },
-      "/root/Project/app/controllers/application_controller.rb": {
+      "/root/group6_spring2023/app/controllers/application_controller.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/root/Project/app/helpers/application_helper.rb": {
+      "/root/group6_spring2023/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/root/Project/app/helpers/concerts_helper.rb": {
+      "/root/group6_spring2023/app/helpers/concerts_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/root/Project/app/models/concert.rb": {
+      "/root/group6_spring2023/app/models/concert.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/root/Project/app/channels/application_cable/channel.rb": {
+      "/root/group6_spring2023/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
           0,
@@ -761,7 +390,7 @@
         "branches": {
         }
       },
-      "/root/Project/app/channels/application_cable/connection.rb": {
+      "/root/group6_spring2023/app/channels/application_cable/connection.rb": {
         "lines": [
           0,
           0,
@@ -771,7 +400,7 @@
         "branches": {
         }
       },
-      "/root/Project/app/controllers/concerts_controller.rb": {
+      "/root/group6_spring2023/app/controllers/concerts_controller.rb": {
         "lines": [
           0,
           0,
@@ -847,7 +476,7 @@
         "branches": {
         }
       },
-      "/root/Project/app/jobs/application_job.rb": {
+      "/root/group6_spring2023/app/jobs/application_job.rb": {
         "lines": [
           0,
           null,
@@ -860,7 +489,7 @@
         "branches": {
         }
       },
-      "/root/Project/app/mailers/application_mailer.rb": {
+      "/root/group6_spring2023/app/mailers/application_mailer.rb": {
         "lines": [
           0,
           0,
@@ -871,6 +500,6 @@
         }
       }
     },
-    "timestamp": 1678833375
+    "timestamp": 1678849662
   }
 }

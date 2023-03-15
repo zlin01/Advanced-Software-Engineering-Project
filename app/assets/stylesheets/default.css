@@ -65,14 +65,26 @@ navitem *
 {
     display: inline-block;
     padding: 14px 16px;
-    color: rgba(108, 198, 233);
+    color: rgba(108, 198, 233, 0.3);
     text-decoration: none;
     font-size: 16px;
+    cursor: pointer;
 }
 
 navitem *:hover
 {
     background-color: #707070;
+}
+
+navitem form
+{
+    height: 18px;
+}
+
+
+navitem form button
+{
+    height: 18px;
 }
 
 navitem form *

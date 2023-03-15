@@ -15,5 +15,6 @@ Feature: Sign In Page
         And I should see an input box for the password
 
     Scenario: Characters are not fully hidden
-        When I am typing in the password input box
+        When I am on the sign in page
+        And I am typing in the password input box
         Then I can see the characters I am entering

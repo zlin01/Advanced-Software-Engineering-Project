@@ -1,5 +1,8 @@
+<% content_for :head do %>
+    <%= stylesheet_link_tag "index.css" %>
+<% end %>
 <searchform>
-    Enter concert URL below 
+    Enter a location below 
     <br /> 
     <%= form_tag results_path, :method => "get" do %> 
         <%= search_field_tag :search %>

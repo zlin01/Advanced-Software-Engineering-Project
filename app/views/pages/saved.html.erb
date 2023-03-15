@@ -1,12 +1,13 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag "saved.css" %>
+<% end %>
 <heading>
   <heading1> Your Saved Concerts </heading1>
 </heading>
-<body>
-  <ul>
-  <% @concerts.each do |concert| %>
-    <li> <%= concert.band %> playing at <%= concert.location %>
-      <p> <%= link_to "Show this concert", concert %> </p>
-    </li>
-  <% end %>
-  </ul>
-</body>
+<ul>
+<% @concerts.each do |concert| %>
+  <li> <%= concert.band %> playing at <%= concert.location %>
+    <p> <%= link_to "Show this concert", concert %> </p>
+  </li>
+<% end %>
+</ul>
