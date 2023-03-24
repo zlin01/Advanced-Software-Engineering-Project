@@ -7,11 +7,11 @@ Rails.application.routes.draw do
   root "pages#index"
   
   # results_path
-  get "results", to: "pages#results"
-
+  #get "results", to: "pages#results"
+  get 'results', to: 'pages#results'
   get '/concertlist/', to: "pages#saved"
 
-    #about path
+  #about path
   get "about", to: "pages#about"
 end
 

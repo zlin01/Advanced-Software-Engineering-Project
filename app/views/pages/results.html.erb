@@ -4,3 +4,22 @@
 <heading>
     <heading2>Search Results for <%=@search%></heading2>
 </heading>
+
+  
+  <% if @events %>
+  <ul>
+    <% @events.each do |event| %>
+      <li>
+        <%= event.name %>
+        <br>
+        <% if event.dates.present? %>
+          <% start_time = event.dates["start"] %>
+          <%= start_time["localDate"] %> <%= start_time["localTime"] %>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No events found.</p>
+<% end %>
+  

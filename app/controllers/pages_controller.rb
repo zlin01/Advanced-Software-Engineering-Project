@@ -1,17 +1,16 @@
+require 'ticketmaster-sdk'
 class PagesController < ApplicationController
     def index
     end
     def results
-        @search = params[:search]
-        #@search = params[:search]
-        #if @search.scan("event/").length() == 1
-        #    @eventid = @search[@search.index("event/") + 6, @search.length];
-        #    @eventid = @eventid[0, @eventid.index("/")];
-        #    logger.info("https://app.ticketmaster.com/discovery/v2/events/"+@eventid+"?apikey=1nY9PFwNWRRt8iHq201xLTQWjj4EW6Uh")
-        #else
-        #    @search = "Unknown URL";
-        #end
-        #https://app.ticketmaster.com/discovery/v2/events.json?apikey=1nY9PFwNWRRt8iHq201xLTQWjj4EW6Uh&classificationName=music&city=denver&stateCode=CO
+        
+        #search_term = params[:search]
+        #params = {keyword: search_term, page: 5, size: 10, source: 'ticketmaster'}
+        params = {page: 5, size: 10, source: 'ticketmaster'}
+        client = Ticketmaster.client(apikey: '1nY9PFwNWRRt8iHq201xLTQWjj4EW6Uh')
+        response = client.search_events(params: params)
+        @events = response.results
+        #@search = search_term
 
     end
 

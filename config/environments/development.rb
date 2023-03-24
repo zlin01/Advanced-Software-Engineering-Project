@@ -4,7 +4,7 @@ Rails.application.configure do
   # Configure 'rails notes' to inspect Cucumber files
   config.annotations.register_directories('features')
   config.annotations.register_extensions('feature') { |tag| /#\s*(#{tag}):?\s*(.*)$/ }
-
+  config.hosts << "app.zlin-13-advses2023-1.uccs.devedu.io"
   config.hosts << "group6.zoxplers.com"
   # Settings specified here will take precedence over those in config/application.rb.
 
