@@ -1,90 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/root/group6_spring2023/Rakefile": {
-        "lines": [
-          null,
-          null,
-          null,
-          1,
-          null,
-          1
-        ]
-      },
-      "/root/group6_spring2023/lib/tasks/cucumber.rake": {
-        "lines": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          0,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/root/group6_spring2023/app/models/user.rb": {
+      "/root/Project/app/models/user.rb": {
         "lines": [
           1,
           null,
@@ -94,24 +11,38 @@
           null,
           1,
           1,
+          null,
           1,
           0,
           null,
           null,
           1,
+          0,
           0,
           null,
           null
         ]
       },
-      "/root/group6_spring2023/app/models/application_record.rb": {
+      "/root/Project/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/root/group6_spring2023/app/channels/application_cable/channel.rb": {
+      "/root/Project/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/root/Project/app/helpers/concerts_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/root/Project/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
           0,
@@ -121,7 +52,7 @@
         "branches": {
         }
       },
-      "/root/group6_spring2023/app/channels/application_cable/connection.rb": {
+      "/root/Project/app/channels/application_cable/connection.rb": {
         "lines": [
           0,
           0,
@@ -131,7 +62,7 @@
         "branches": {
         }
       },
-      "/root/group6_spring2023/app/controllers/application_controller.rb": {
+      "/root/Project/app/controllers/application_controller.rb": {
         "lines": [
           0,
           0
@@ -139,7 +70,7 @@
         "branches": {
         }
       },
-      "/root/group6_spring2023/app/controllers/concerts_controller.rb": {
+      "/root/Project/app/controllers/concerts_controller.rb": {
         "lines": [
           0,
           0,
@@ -215,7 +146,7 @@
         "branches": {
         }
       },
-      "/root/group6_spring2023/app/controllers/pages_controller.rb": {
+      "/root/Project/app/controllers/pages_controller.rb": {
         "lines": [
           0,
           0,
@@ -223,17 +154,21 @@
           0,
           0,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          0,
+          0,
           0,
           null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
           null,
           0,
           0,
@@ -247,23 +182,7 @@
         "branches": {
         }
       },
-      "/root/group6_spring2023/app/helpers/application_helper.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/root/group6_spring2023/app/helpers/concerts_helper.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/root/group6_spring2023/app/jobs/application_job.rb": {
+      "/root/Project/app/jobs/application_job.rb": {
         "lines": [
           0,
           null,
@@ -276,7 +195,7 @@
         "branches": {
         }
       },
-      "/root/group6_spring2023/app/mailers/application_mailer.rb": {
+      "/root/Project/app/mailers/application_mailer.rb": {
         "lines": [
           0,
           0,
@@ -286,7 +205,7 @@
         "branches": {
         }
       },
-      "/root/group6_spring2023/app/models/concert.rb": {
+      "/root/Project/app/models/concert.rb": {
         "lines": [
           0,
           0
@@ -295,11 +214,11 @@
         }
       }
     },
-    "timestamp": 1678846896
+    "timestamp": 1680910907
   },
   "Cucumber Features": {
     "coverage": {
-      "/root/group6_spring2023/app/models/user.rb": {
+      "/root/Project/app/models/user.rb": {
         "lines": [
           1,
           null,
@@ -309,45 +228,51 @@
           null,
           1,
           1,
+          null,
           1,
           0,
           null,
           null,
           1,
           0,
+          0,
           null,
           null
         ]
       },
-      "/root/group6_spring2023/app/models/application_record.rb": {
+      "/root/Project/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/root/group6_spring2023/app/controllers/pages_controller.rb": {
+      "/root/Project/app/controllers/pages_controller.rb": {
         "lines": [
+          1,
           1,
           1,
           null,
           1,
+          null,
+          2,
+          0,
+          0,
+          null,
+          2,
+          2,
+          null,
+          null,
+          2,
+          2,
+          2,
+          2,
           2,
           null,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           1,
-          2,
+          0,
           null,
           null,
           1,
@@ -356,31 +281,25 @@
           null
         ]
       },
-      "/root/group6_spring2023/app/controllers/application_controller.rb": {
+      "/root/Project/app/controllers/application_controller.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/root/group6_spring2023/app/helpers/application_helper.rb": {
+      "/root/Project/app/helpers/application_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/root/group6_spring2023/app/helpers/concerts_helper.rb": {
+      "/root/Project/app/helpers/concerts_helper.rb": {
         "lines": [
           1,
           null
         ]
       },
-      "/root/group6_spring2023/app/models/concert.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/root/group6_spring2023/app/channels/application_cable/channel.rb": {
+      "/root/Project/app/channels/application_cable/channel.rb": {
         "lines": [
           0,
           0,
@@ -390,7 +309,7 @@
         "branches": {
         }
       },
-      "/root/group6_spring2023/app/channels/application_cable/connection.rb": {
+      "/root/Project/app/channels/application_cable/connection.rb": {
         "lines": [
           0,
           0,
@@ -400,7 +319,7 @@
         "branches": {
         }
       },
-      "/root/group6_spring2023/app/controllers/concerts_controller.rb": {
+      "/root/Project/app/controllers/concerts_controller.rb": {
         "lines": [
           0,
           0,
@@ -476,7 +395,7 @@
         "branches": {
         }
       },
-      "/root/group6_spring2023/app/jobs/application_job.rb": {
+      "/root/Project/app/jobs/application_job.rb": {
         "lines": [
           0,
           null,
@@ -489,10 +408,18 @@
         "branches": {
         }
       },
-      "/root/group6_spring2023/app/mailers/application_mailer.rb": {
+      "/root/Project/app/mailers/application_mailer.rb": {
         "lines": [
           0,
           0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/root/Project/app/models/concert.rb": {
+        "lines": [
           0,
           0
         ],
@@ -500,6 +427,6 @@
         }
       }
     },
-    "timestamp": 1678849662
+    "timestamp": 1680910794
   }
 }

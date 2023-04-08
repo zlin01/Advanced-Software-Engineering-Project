@@ -10,12 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_05_020407) do
+ActiveRecord::Schema[7.0].define(version: 2023_04_06_144139) do
   create_table "concerts", force: :cascade do |t|
     t.string "band"
     t.string "location"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "ticketmaster_id"
   end
 
   create_table "users", force: :cascade do |t|

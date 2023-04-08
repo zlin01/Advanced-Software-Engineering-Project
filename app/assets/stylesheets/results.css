@@ -2,3 +2,46 @@
 /*Pseudo*/
 /*Classes*/
 /*Tags*/
+
+*
+{
+  box-sizing: border-box;
+}
+
+ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+  
+ul li
+{
+  border: 5px solid #0e0e0e;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #3c3c3c;
+  padding: 12px;
+}
+
+button
+{
+  border-radius: 4px;
+  background-color: rgb(108, 198, 233);
+  border: none;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+button:hover
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 
+  0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button:active 
+{
+  box-shadow: 0 2px #666;
+  transform: translateY(1px);
+}

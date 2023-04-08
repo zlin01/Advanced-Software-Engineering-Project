@@ -1,20 +1,15 @@
 Feature: Save concerts
-    
-    Scenario: User searches for a concert
-        Given I am signed in
-        When I search for a concert
-        Then I should see a save concert button
+
+    Scenario: Not signed in user tries to save a concert
+        When I search for concerts
+        Then I should not see a save concert button
 
     Scenario: User saves a concert
-        Given I am signed in
-        And have searched for a concert
-        When I click the save concert button
-        Then the button text change to "saved"
+        Given I currently am signed in
+        When I search for a concert
+        And I click the save concert button
+        And I go to my saved concerts page
+        Then I should see that concert
     
-    Scenario: Not signed in user tries to save a concert
-        Given I am not signed in
-        When I try to save a concert
-        Then I should see a message 
-        And it should say "You cannot save concerts when you are not signed in"
 
     

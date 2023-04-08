@@ -6,11 +6,13 @@ class User < ApplicationRecord
 
   @@amountconcerts = 0;
   @@concertlist = []
+
   def self.concertlist
-    @@concertlist
+    return @@concertlist
   end
 
   def self.add_concertlist(concert)
-    concertlist << concert
+    @@concertlist << concert
+    @@amountconcerts += 1
   end
 end

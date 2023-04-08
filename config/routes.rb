@@ -9,9 +9,12 @@ Rails.application.routes.draw do
   # results_path
   #get "results", to: "pages#results"
   get 'results', to: 'pages#results'
+  post 'results', to: 'pages#results'
+
   get '/concertlist/', to: "pages#saved"
 
   #about path
   get "about", to: "pages#about"
+
 end
 
