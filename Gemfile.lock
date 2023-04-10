@@ -160,6 +160,9 @@ GEM
     globalid (1.1.0)
       activesupport (>= 5.0)
     hashie (1.2.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.1.5)
@@ -195,6 +198,7 @@ GEM
     minitest (5.18.0)
     msgpack (1.6.1)
     multi_test (1.1.0)
+    multi_xml (0.6.0)
     net-imap (0.3.4)
       date
       net-protocol
@@ -344,6 +348,7 @@ DEPENDENCIES
   debug
   devise
   factory_bot_rails
+  httparty
   importmap-rails
   jbuilder
   pg

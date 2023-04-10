@@ -6,23 +6,25 @@
 </heading>
 
   
-  <% if @events %>
-    <ul>
-      <% @events.each do |event| %>
-        <li>
-          <%= event.name %>
-        <br>
-          <% if event.dates.present? %>
-            <% start_time = event.dates["start"] %>
-            <%= start_time["localDate"] %> <%= start_time["localTime"] %>
-          <% end %>
-          <% if user_signed_in? %>
-            <p> <%= button_to 'Save Concert', results_path( {:concert_name => event.name, :concert_id => event.id}) %> <p>
-          <% end %>
-        </li>
-      <% end %>
-    </ul>
-  <% else %>
-    <p>No events found.</p>
-  <% end %>
+<% if @events %>
+  <ul>
+    <% @events.each do |event| %>
+      <li>
+        <%= event.band %>
+      <br>
+        <% if false %>
+        #<% if event.dates.present? %>
+        #  <% start_time = event.dates["start"] %>
+        #  <%= start_time["localDate"] %> <%= start_time["localTime"] %>
+        #<% end %>
+        <% end %>
+        <% if user_signed_in? %>
+          <p> <%= button_to 'Save Concert', results_path( {:concert_name => event.name, :concert_id => event.id}) %> <p>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+<% else %>
+  <p>No events found.</p>
+<% end %>
   
