@@ -7,11 +7,17 @@ Rails.application.routes.draw do
   root "pages#index"
   
   # results_path
-  #get "results", to: "pages#results"
-  get 'results', to: 'pages#results'
-  post 'results', to: 'pages#results'
+  get "results", to: "pages#results"
+  #post "results", to: "pages#results"
 
-  get '/concertlist/', to: "pages#saved"
+  # save_path
+  get "save", to: "pages#save"
+  post "save", to: "pages#save"
+
+  # list_path
+  get "list", to: "pages#list"
+  get "concertlist", to: "pages#list"
+
 
   #about path
   get "about", to: "pages#about"

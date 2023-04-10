@@ -19,7 +19,7 @@
         #<% end %>
         <% end %>
         <% if user_signed_in? %>
-          <p> <%= button_to 'Save Concert', results_path( {:concert_name => event.name, :concert_id => event.id}) %> <p>
+          <p> <%= button_to 'Save Concert', save_path( {:concert_name => event.band, :concert_id => event.id}) %> <p>
         <% end %>
       </li>
     <% end %>

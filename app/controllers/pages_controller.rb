@@ -34,8 +34,15 @@ class PagesController < ApplicationController
 
     end
 
-    def saved
-        @concerts = User.concertlist
+    def save
+        if params.key?(:concert_name) && params.key?(:concert_id)
+            @concert = Concert.create(band: params[:concert_name], ticketmaster_id: params[:concert_id])
+            User.add_concertlist(@concert)
+        end
+    end
+
+    def list
+        @concerts = User.concertlist ? User.concertlist : [] 
     end
 
     def about
