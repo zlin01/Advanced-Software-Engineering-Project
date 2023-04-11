@@ -11,8 +11,8 @@ Rails.application.routes.draw do
   #post "results", to: "pages#results"
 
   # save_path
-  get "save", to: "pages#save"
-  post "save", to: "pages#save"
+  get "save", to: "pages#results"
+  post "save", to: "pages#results"
 
   # list_path
   get "list", to: "pages#list"

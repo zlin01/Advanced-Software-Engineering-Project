@@ -5,8 +5,16 @@ class PagesController < ApplicationController
     def index
     end
     def results
+
+        if params.key?(:concert_name) && params.key?(:concert_id)
+            @concert = Concert.create(band: params[:concert_name], location: session[:search], ticketmaster_id: params[:concert_id])
+            User.add_concertlist(@concert)
+        elsif params[:search].present?
+            session[:search] = params[:search]
+        end
+        
         apikey = "1nY9PFwNWRRt8iHq201xLTQWjj4EW6Uh"
-        @search = params[:search]
+        @search = session[:search]
         url = "https://app.ticketmaster.com/discovery/v2/events.json?apikey="+apikey+"&classificationName=music&city="+@search
         response = HTTParty.get(url)
         if response.parsed_response["_embedded"]

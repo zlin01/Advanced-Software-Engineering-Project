@@ -3,7 +3,7 @@ Given ("I am at the index page") do
 end
 
 When("I put a location in the search box") do
-    within("form") do
+    within("searchform") do
         fill_in "search", with: "Denver"
     end
 end
